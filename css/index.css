@@ -1,45 +1,40 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
 html{
     font-family: 標楷體;
 }
+.banner{
+    padding-top: 6rem;
+    height: 800px;
+    background-size: 100%;
+    background-image: url("https://live.staticflickr.com/65535/52301788993_d1a62f6e09_k.jpg");
+  }
+  
+  .title{
+    width: 50%;
+    margin: 0 auto;
+    font-size: 4rem;
+    color: grey;
+    padding-left: 1rem;
+    /* border-left: 10px solid  #453E52; */
+  }
 
-.header{
-    display: flex;
-    height: 10.5rem;
-    background-color: antiquewhite;
-    flex-direction:row;
-    flex-wrap: wrap;
-    justify-content:flex-end;
-    /* align-content: flex-start;   */
-}
-.header-right
-{
-    width: 80%;
-    height: 10/5rem;
-    justify-content: right;
-    font-size: 3rem;
-    text-align: right;
-    font-weight: 50;
-    background-color: antiquewhite;
-}
+  .text1{
+    margin: 0 auto;
+    font-size: 50px;
+    color: grey;
+    padding-left: 1rem;
+    border-left: 10px solid  #4B5963;
+  }
 
-.header-right ul li{
-    display: inline-block;
-    color: #333;
-    font-size: 2rem;
-    padding-right: 5rem;
-    
-}
+  .text2{
 
-.header-right ul li a{
-    text-decoration: none;
-    color: darkblue;
-}
-.header-right ul li a:hover{
-    color:gray;
-}
-.header-left{
-    text-align:left;
-    width: 15%;
-    height: 10rem;
-    justify-content: left;
-}
+    margin: 0 auto;
+    font-size: 50px;
+    color: grey;
+    padding-left: 1rem;
+    border-left: 10px solid  #453E52;
+  }
