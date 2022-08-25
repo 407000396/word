@@ -19,13 +19,13 @@ html{
     font-size: 5rem;
     color: gray;
     text-align: center;
-    /* border:2px white solid; */
+    border:2px white solid;
 }
 
-.list{
+.list{s
     width:60%;
     line-height: 10rem;;
-    /* border:2px white solid; */
+    border:2px white solid;
     float:right;
     font-size: 2rem;
     
@@ -35,8 +35,8 @@ html{
   .list li{
     float: right;
     list-style-type:none;
-    
-  }
+  } 
+  
 
   .list li a{
     display: inline-block;
@@ -50,7 +50,7 @@ html{
  
     .text{
         padding-top: 10rem;
-        /* border:2px white solid; */
+        border:2px white solid;
         padding-bottom: 8rem;
     }
 
