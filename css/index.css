@@ -27,7 +27,7 @@ html{
     line-height: 10rem;;
     /* border:2px white solid; */
     float:right;
-    font-size: 3rem;
+    font-size: 2rem;
     
    
   }
@@ -51,7 +51,7 @@ html{
     .text{
         padding-top: 10rem;
         /* border:2px white solid; */
-        padding-bottom: 15rem;
+        padding-bottom: 8rem;
     }
 
   .text1{
